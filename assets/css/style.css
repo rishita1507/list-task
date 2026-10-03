@@ -1,0 +1,19 @@
+.list-group-item:hover {
+    background-color: lightgray;
+    transform:scale(1.05);
+    /* transition: all 0.3s linear; */
+    background-color: lightgray;
+    transform: translateX(10px);
+
+}
+.btn:hover{
+    transform:scale(1.05);
+}
+h2{
+    text-align: center;
+    color:black;
+}
+.student-heading{
+    text-align: center;
+    color:orange;
+}
