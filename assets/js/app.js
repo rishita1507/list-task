@@ -18,6 +18,8 @@ result+=`</ul>`
 let students1=document.getElementById("students1")
 students1.innerHTML=result
 console.log(skills)
+console.log(skills)
+console.log(skills)
 
 
 let companies = ["Google","Microsoft","Amazon","Apple","Meta"];
@@ -34,10 +36,10 @@ for(let i=0;i<companies.length;i++){
    <button type="button" class="btn btn-primary btn-sm">Edit</button>
  <button type="button" class="btn btn-danger btn-sm">Remove</button>
     </div>
-    <li>
+    </li>
    ` 
 }
-`</ul>`
+result1+=`</ul>`
 let skills1=document.getElementById("skills1")
 skills1.innerHTML=result1
 console.log(com1)
